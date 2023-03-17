@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* 
+em HTML é id = em CSS é #
+em HTML é class = em CSS é .
+*/
+
+body {
+    background-color: #baf3ce;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1#principal{
+    text-align: center;
+    color: rgb(243, 250, 236);
+    background-color: #03394e;
+    font-size: 2em;
+}
+
+h1{
+    color: #034159;
+    text-align: center;
+}
+
+h2{
+    color: #025951;
+    text-shadow: 1px 1px 1px #000c0b;
+}
+
+.basico {
+    color: #02595;
+}
+
+.intermediario {
+    color: yellow;
+    text-shadow: 1px 1px 1px rgb(59, 59, 25);
+}
+
+.avancado {
+    color: rgb(156, 0, 0);
+    text-shadow: 1px 1px 1px rgb(41, 4, 4);
+}
